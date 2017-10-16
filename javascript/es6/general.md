@@ -16,4 +16,11 @@
 9. Explain prototypal inheritance
 10. Explain constructor functions (specific examples)
 11. OOP
+12. What is NaN?
+  - NaN stands for "Not a Number"
+  - type is Number `typeof NaN === 'number'`
+  - NaN compared to anything is false (even itself) `console.log(NaN === NaN) // logs false`
+  - To check if a value is NaN, you can check for its inequality to itself. `var a = NaN; a !== a; //true`
+13. Why would you put 'use strict' at the beginning of your file or function?
+14. Be aware of limitations of precisions in JavaScript's double-precision floating-point arithmetic
 
