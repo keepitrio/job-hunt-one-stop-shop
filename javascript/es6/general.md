@@ -14,6 +14,8 @@
   - bind
 8. What is function currying?
 9. Explain prototypal inheritance
+  - Every object is associated with some other object, known as its prototype. The last prototype in this "prototype chain" will be equal to null.
+  -In terms of inheritence, JavaScript will traverse the prototype chain until it finds the referenced property.
 10. Explain constructor functions (specific examples)
 11. OOP
 12. What is NaN?
